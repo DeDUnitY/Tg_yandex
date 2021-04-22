@@ -1,0 +1,17 @@
+<table>
+    <style>
+    body {
+    background-color: #7cffed;
+    }
+    </style>
+  <tbody>
+    {% for name in names %}
+    <tr>
+      <td>
+       <span>{{name}}
+           <img src="/static/img/{{name}}" width="88%" height="88%" alt="здесь должна была быть картинка, но не нашлась"></span>
+      </td>
+    </tr>
+    {% endfor %}
+   </tbody>
+</table>

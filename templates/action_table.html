@@ -1,0 +1,21 @@
+<table>
+  <style>
+    body {
+    background-color: #7cffed;
+    }
+    </style>
+  <thead>
+    <tr>
+      <th><span>Action - Message - data time</span></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for user in users %}
+    <tr>
+      <td>
+       <span>{{user['Action']}} - {{user['message']}} - {{user['data time']}}</span>
+      </td>
+    </tr>
+    {% endfor %}
+   </tbody>
+</table>

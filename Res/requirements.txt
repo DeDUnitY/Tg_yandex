@@ -1,0 +1,11 @@
+Pillow==8.0.1
+PyAutoGUI=0.9.52
+PyAutoIt==0.6.0
+numpy==1.19.3
+opencv-python==4.4.0.46
+pyTelegramBotAPI==3.7.3
+pynput==1.7.1
+requests==2.24.0
+setuptools==49.2.1
+six==1.15.0
+urllib3==1.25.11
